@@ -1,0 +1,33 @@
+@mixin header($display, $jc, $ai){
+	display: $display;
+	justify-content:$jc;
+	align-items:$ai;
+}
+@mixin header_1($display, $jc, $ai, $fd){
+	display: $display;
+	justify-content:$jc;
+	align-items:$ai;
+	flex-direction:column;
+}
+@mixin main($display, $jc, $ai){
+	display: $display;
+	justify-content:$jc;
+	align-items:$ai;
+}
+@mixin main_1($display, $jc, $ai, $fd){
+	display: $display;
+	justify-content:$jc;
+	align-items:$ai;
+	flex-direction:column;
+}
+@mixin footer($display, $jc, $ai){
+	display: $display;
+	justify-content:$jc;
+	align-items:$ai;
+}
+@mixin footer_1($display, $jc, $ai, $fd){
+	display: $display;
+	justify-content:$jc;
+	align-items:$ai;
+	flex-direction:column;
+}

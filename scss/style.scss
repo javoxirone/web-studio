@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'mixin';
+@import 'variable';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box!important;
+    font-family: 'Roboto', sans-serif!important;
+}
+body.lock{
+    overflow: hidden;
+}
+li{
+    list-style: none!important;
+}
+
+.container{
+    padding: 0 15px!important;
+}
+.button_1{
+    background-color: $color1!important;
+    border: 2px solid $color1!important;
+    color: $color4!important;
+    font-size: $fz14!important;
+    font-weight: 500;
+    border-radius: 50px!important;
+    padding: 11px 34px;
+    max-width: 155px!important;
+    transition: 0.3s!important;
+    font-family: 'Poppins', sans-serif!important;
+    cursor: pointer;
+    &:hover{
+        background-color: $color4!important;
+        border: 2px solid $color1;
+        color: $color1!important;
+    }
+}
+.button_2{
+    border: 2px solid $color7!important;
+    color: $color7!important;
+    font-size: $fz14!important;
+    font-weight: 500;
+    border-radius: 50px!important;
+    padding: 11px 34px;
+    max-width: 155px!important;
+    transition: 0.3s!important;
+    font-family: 'Poppins', sans-serif!important;
+    cursor: pointer;
+    &:hover{
+        background-color: $color7!important;
+        color: $color4!important;
+    }
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 500!important;
+}
+h2{
+    font-size: $fz48!important;
+}
+figure{
+    margin: 0!important;
+}
+
+
+h6.main{
+    font-weight: 400!important;
+        color: $color1;
+}
